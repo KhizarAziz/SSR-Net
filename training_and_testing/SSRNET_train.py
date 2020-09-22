@@ -55,7 +55,7 @@ def main():
     netType1 = args.netType1
     netType2 = args.netType2
 
-    logging.debug("Loading data...")
+    logging.debug("Loadddding data...")
     image, gender, age, image_size = load_data_npz(input_path)
     
     x_data = image
